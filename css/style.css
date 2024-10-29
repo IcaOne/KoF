@@ -1,0 +1,255 @@
+
+:root{
+    --bg: rgb(54, 54, 54);
+    --txt: rgb(241, 229, 113);
+    --txt-hover: rgb(250, 129, 73);
+    --txt-shadow: rgb(2, 0, 95);
+    --txt-blue: rgb(62, 62, 194);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--bg);
+}
+
+nav img{
+    width:64px;
+    margin-right: 15px;
+}
+
+nav div ul{
+    display:flex;
+}
+
+nav div ul li{
+    padding-left:25px;
+    font-size:25px;
+    list-style: none;
+}
+
+nav div ul li a{
+    text-decoration: none;
+    color: var(--txt-hover);
+}
+
+nav div ul li a:hover{
+    color: var(--txt-blue);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.containerHeader{
+    height: 80vh;
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display:flex;
+    align-items: center;
+}
+
+.containerTitle{
+    margin-left:25vh;
+}
+
+.title1{
+    color: var(--txt);
+    text-shadow: 0 5px 5px var(--txt-shadow);
+    font-size: 75px;
+    font-family: arial;
+    text-align: center;
+    font-style: italic;
+}
+
+.title2{
+    color:var(--txt-hover);
+    text-shadow: 0 5px 5px var(--txt-shadow);
+    font-size: 65px;
+    font-family: arial;
+    text-align: center;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.containerGames{
+    background-color: black;
+    color: rgb(255, 255, 177);
+    width: 85%;
+    margin-left: 8%;
+    padding: 60px 0;
+}
+
+.containerGames h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.containerGames p{
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+main{
+    background-color: black;
+}
+
+.containerCard{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cardJogo{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cardJogo h3{
+    text-shadow: 2px 2px 2px var(--txt-hover);
+    padding-right: 155px;
+}
+
+#card1{
+    background-image: url(../img/ash.jpg);
+}
+#card2{
+    background-image: url(../img/benimaru.jpg);
+}
+#card3{
+    background-image: url(../img/chin.jpg);
+}
+#card4{
+    background-image: url(../img/clark.jpg);
+}
+#card5{
+    background-image: url(../img/iori.jpg);
+}
+#card6{
+    background-image: url(../img/king.jpg);
+}
+#card7{
+    background-image: url(../img/kyo.jpg);
+}
+#card8{
+    background-image: url(../img/leona.jpg);
+}
+#card9{
+    background-image: url(../img/orochi.jpg);
+}
+#card10{
+    background-image: url(../img/ralf.jpg);
+}
+#card11{
+    background-image: url(../img/rugal.jpg);
+}
+#card12{
+    background-image: url(../img/terry.jpg);
+}
+
+.containerProtag{
+    background-color: var(--txt);
+    color: var(--txt-shadow);
+    padding: 60px 0;
+}
+
+.containerProtag h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.containerContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin-left: 8%;
+}
+
+.cardProtag{
+    width: 23%;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.cardProtag figure img{
+    width: 100%;
+}
+
+.containerBtn{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin-left: 8%;
+}
+
+.butoes{
+    justify-content: space-evenly;
+
+}
+
+.butoes button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 15%;
+}
+
+.butoes a button{
+    text-decoration: none;
+    color: white;
+}
+
+.butoes button:hover{
+    color: var(--txt-hover);
+    background-color: rgb(78, 78, 78);
+    transition: 0.5s;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    background-color: black;
+    justify-content: right;
+}
+
+
+footer div ul{
+    display:flex;
+    padding-right: 165px;
+}
+
+footer div ul li{
+    padding-left:25px;
+    font-size:20px;
+    list-style: none;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color: var(--txt-hover);
+}
+
+footer div ul li a:hover{
+    color: var(--txt-blue);
+    text-decoration: underline;
+    transition: 0.5s;
+}
